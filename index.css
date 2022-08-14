@@ -1,0 +1,324 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Baloo Bhai 2", cursive;
+}
+
+/* navigation style start here  */
+.navbar {
+  width: 100%;
+  height: 70px;
+  background-color: #fff7f3;
+  display: flex;
+  font-family: "Mitr", sans-serif;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.navbar .logo {
+  padding: 10px 30px 10px 30px;
+  cursor: pointer;
+}
+.navbar ul {
+  display: flex;
+  cursor: pointer;
+}
+.navbar ul a {
+  color: #4d312c;
+  font-size: 15px;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 26px 15px;
+  font-family: "Mitr", sans-serif;
+}
+.navbar ul a.booking {
+  position: absolute;
+  right: 230px;
+  border-bottom: 4px solid #fe5f41;
+}
+
+.navbar ul a:hover {
+  border-bottom: 4px solid #fe5f41;
+  color: #fe5f41;
+}
+.navbar button {
+  background-color: #fe5f41;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  width: 200px;
+  height: 55px;
+  border: none;
+  border-radius: 50px;
+  margin: 7px;
+  position: absolute;
+  right: 20px;
+  cursor: pointer;
+  transition: ease-out 0.4s;
+}
+.navbar button:hover {
+  box-shadow: inset 208px 0 0 0 #eb2e09;
+}
+/* navigation style end here  */
+
+/* home style start here  */
+.home {
+  background-image: url("home-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 555px;
+  color: #4d312c;
+}
+.home .written {
+  padding: 157px;
+  font-weight: 900;
+}
+.home h3 {
+  font-size: 60px;
+  padding-bottom: 6px;
+}
+
+.home p {
+  font-size: 17px;
+  text-align: center;
+  padding-right: 655px;
+  padding-bottom: 20px;
+}
+.home .explore {
+  background: #fe5f41;
+  width: 168px;
+  height: 47px;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  margin-left: 97px;
+  cursor: pointer;
+  transition: ease-out 0.3s;
+}
+.home .explore:hover {
+  box-shadow: inset 208px 0 0 0 #eb2e09;
+}
+/* home style end here  */
+
+/* menu style start here  */
+.menu {
+  background-color: white;
+  font-family: "Baloo Bhai 2", cursive;
+}
+.menu-heading {
+  text-align: center;
+  font-size: 36px;
+  padding: 46px 0px 20px 0px;
+}
+.menu-para {
+  text-align: center;
+  font-size: 17px;
+  color: grey;
+  padding: 0px 0px 30px 0px;
+}
+.menu-container {
+  display: flex;
+  flex-direction: row;
+  height: 500px;
+}
+.menu-items {
+  border: 0.1px solid #d2d2d2;
+  border-radius: 30px;
+  height: 368px;
+  width: 20%;
+  margin: 10px;
+  padding: 60px;
+  position: relative;
+  left: 5%;
+}
+.menu-img {
+  position: relative;
+  left: 80px;
+  height: 200px;
+  width: 200px;
+}
+.items-heading {
+  color: #4d312c;
+  text-align: center;
+  font-weight: 800;
+  font-size: 25px;
+  padding: 40px 0px 30px 0px;
+}
+.items-para {
+  color: grey;
+  text-align: center;
+  padding: 10px 0px 0px 0px;
+}
+.items-heading:hover {
+  color: #fe5f41;
+  cursor: pointer;
+}
+/* menu style start here  */
+
+/* <!-- dishes start here  --> */
+.dishes {
+  background-color: #4c322d;
+  height: 750px;
+  padding: 86px 80px 50px 70px;
+  font-family: "Baloo Bhai 2", cursive;
+}
+.dishes-heading {
+  color: white;
+  font-weight: 1000;
+  font-size: 50px;
+}
+.dishes-para {
+  color: grey;
+  font-size: 20px;
+}
+.dishes-btn {
+  color: white;
+  background-color: #fe5f41;
+  font-size: 20px;
+  height: 50px;
+  width: 180px;
+  float: right;
+  position: relative;
+  bottom: 22%;
+  border: none;
+  border-radius: 37px;
+  cursor: pointer;
+  transition: ease-out 0.3s;
+}
+.dishes-btn:hover {
+  box-shadow: inset 208px 0 0 0 #eb2e09;
+}
+.dishes-list li {
+  color: white;
+  list-style: none;
+  padding: 40px 45px 15px 57px;
+  font-size: 24px;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-block;
+}
+.dishes-list li:hover {
+  color: #fe5f41;
+  border-bottom: 5px solid #fe5f41;
+}
+.dishes-container {
+  display: flex;
+  flex-direction: row;
+  height: 600px;
+}
+.dishes-items {
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  height: 380px;
+  width: 15%;
+  margin: 10px;
+  padding: 60px;
+  position: relative;
+  left: 10%;
+  margin-top: 30px;
+}
+.dishes-name {
+  text-align: center;
+  font-weight: 900;
+  font-size: 25px;
+  padding: 15px 0px;
+  cursor: pointer;
+}
+.dishes-namep {
+  text-align: center;
+  color: grey;
+}
+.order {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 20px;
+  cursor: pointer;
+  border-bottom: 4px solid #fe5f41;
+}
+.order:hover {
+  color: #fe5f41;
+  font-weight: bolder;
+}
+/* <!-- dishes end here  ->- */
+
+
+/* <!-- booking section start here  --> */
+.booking {
+  display: flex;
+  height: 750px;
+}
+.booking-img {
+  padding: 100px 2px 0px 100px;
+}
+.form-heading {
+  padding: 100px 109px 13px 173px;
+  font-size: 50px;
+  font-weight: 900;
+}
+.form-para {
+  text-align: center;
+}
+.form {
+  text-align: center;
+}
+.form input {
+  width: 335px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 31px;
+  text-align: center;
+  margin: 16px;
+  font-size: 16px;
+}
+.booking-btn {
+  background-color: #fe5f41;
+  width: 335px;
+  height: 45px;
+  text-align: center;
+  color: white;
+  border: none;
+  border-radius: 31px;
+  margin-top: 16px;
+  font-size: 17px;
+  font-weight: 800;
+  cursor: pointer;
+  transition: ease-out 0.3s;
+}
+.form input:hover {
+  border: 2px solid #fe5f41;
+  cursor: pointer;
+}
+.booking-btn:hover {
+  box-shadow: inset 358px 0 0 0 #eb2e09;
+}
+/* <!-- booking section end here  --> */
+
+
+/* image section end here  */
+.image-section {
+  width: 100%;
+  height: 200px;
+  display: flex;
+}
+.image-section img {
+  width: 25%;
+}
+/* image section end here  */
+
+
+/* footer section start here  */
+.footer{
+    height: 50px;
+    background-color: #fff7f3;
+    text-align: center;
+    color: #4d312c;
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 19px;
+}
+/* footer section end here  */
